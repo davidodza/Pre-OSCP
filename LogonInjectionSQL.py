@@ -14,7 +14,8 @@ driver = webdriver.Chrome(chrome_path)
 url = "http://192.168.226.128/?page=login"
 driver.get(url)
 
-#login input XPath
+################## YOU'LL CHANGE THE 3 VARIABLES BELOW ##################
+#login input XPath 
 loginX = """//*[@id="user"]"""
 #password input XPath
 passX = """//*[@id="pass"]"""

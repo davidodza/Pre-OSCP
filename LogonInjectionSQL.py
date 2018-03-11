@@ -7,8 +7,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import NoSuchElementException
 import time
 
+################## YOU'LL CHANGE THE CHROME DRIVER PATH TO YOUR OWN ##################
 #setting path to chrome driver
 chrome_path = r"C:\Users\David\Downloads\chromedriver_win32\chromedriver.exe"
+################## END OF CHROME DRIVER PATH CHANGE ##################
 driver = webdriver.Chrome(chrome_path)
 
 url = "http://192.168.226.128/?page=login"
@@ -21,6 +23,7 @@ loginX = """//*[@id="user"]"""
 passX = """//*[@id="pass"]"""
 #login button XPath
 loginButtonX = """/html/body/center/form/input[3]"""
+################## END OF VARIABLES TO CHANGE ##################
 
 quote = '"'
 
